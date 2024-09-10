@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ * {
+    box-sizing: border-box;
+    font-size: small;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    color: #0047ab;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+  }
+  
+   .button-box2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header-text2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .master-data {
+    width: 99%;
+    justify-content: space-between;
+  }
+  
+  .master-data input::after {
+    margin-right: 5px;
+  }
+  
+  .table-div table input {
+    width: 100%;
+  }
+  
+  .table-div table select {
+    width: 100%;
+  }
+  
+  input {
+    width: 100px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #0047ab;
+  }
+  
+  label {
+    margin-top: 1%;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  
+  select {
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #0047ab;
+  }
+  
+  .select-input {
+    width: 100px;
+    border: 1px solid black;
+  }
+
+  .advnce-div{
+    all: unset;
+  }
+
+  .advnce-div form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .advnce-div label {
+    margin-right: 10px;
+  }
+  
+  .advnce-div input[type="text"],
+  .advnce-div input[type="date"],
+  .advnce-div button {
+    height: 30px; /* Adjust the height as needed */
+    padding: 0 10px; /* Adjust padding as needed */
+  } 
+  
+
+  /* Chrome, Safari, Edge, Opera for hidden arrows in input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  table {
+    width: 90%;
+  }
+  
+.bttn {
+    margin: 10px;
+    background-color: #fff;
+    color: #0047ab;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #0047ab;
+    font-weight: bold;
+  }
+  .bttn:hover {
+    background-color: #0047ab;
+    color: #fff;
+  }
+
+  modal-width {
+    width: 500px;
+  }
