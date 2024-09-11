@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <>
     <Header className="fixed"/>
-    <div id='maindiv' className='flex items-center justify-around mt-5'>
+    <div id='maindiv1' className='flex items-center justify-around mt-5'>
 
 
 <Link href="/DomesticHelp">
